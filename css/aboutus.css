@@ -1,0 +1,194 @@
+.module {
+min-width: 25%;
+
+}
+
+.footer-distributed{
+
+    position: absolute;
+    top: 170%;
+    margin-top: 0[]
+
+
+
+
+}
+
+.cross{
+
+  position:absolute;
+  top:0px;
+  right:0;
+  padding-right: 5%;
+  padding-top: 25px;
+
+}
+
+
+.hello {
+    display: inline-block;
+    font-size: 100px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: left;
+    font-size: 9em;
+    font-weight: 200;
+    color: #bcc940;
+    padding-bottom: 0;
+}​
+
+.test h2 {
+  text-transform: uppercase;
+}
+
+.module {
+	background-color: #fff;
+	padding: 1%;
+	margin-bottom: 2%;
+	float: left;
+}
+
+.module h2 {
+	font-weight: 600;
+	padding-bottom: 2%;
+}
+
+.module.mod30 {
+	width:25%;
+	margin-left: 2.4%;
+	float: left;
+  font-size: .9em;
+  	/* margin-right: 2%; */
+}
+
+.module.mod30 img {
+	width:100%;
+}
+
+.module.mod30 h1 {                 ****
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d6df5a;
+}
+
+.container:hover .overlay {
+  opacity: .95;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #333;
+  position: absolute;
+  width: 80%;
+  top: 51%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text a:hover {
+  color: #333;
+  font-weight: 100;
+
+}
+
+
+h4 {
+font-size: 1em;
+padding-bottom: 20px;
+line-height: 1.4em;
+}
+
+@media screen and (max-width: 1200px){
+.footer-distributed {
+  margin-top: 200px;
+}
+
+.jen{
+  float: right;
+}
+
+.lori{
+  float: right;
+}
+
+}
+
+
+@media screen and (max-width: 675px) {
+
+  .module.mod30 {
+		float: left;
+		width: 40%;
+    padding-left: 5%;
+
+	}
+
+  .footer-distributed {
+    position: absolute;
+    top: 2300px;
+  }
+
+  .jen{
+    float: right;
+  }
+
+  .lori{
+    float: right;
+  }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  .module.mod30 {
+		float: left;
+		width: 100%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
+	}
+
+  #hello {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .footer-distributed {
+    position: absolute;
+    top: 2150px;
+  }
+
+
+
+}
